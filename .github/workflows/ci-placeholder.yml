@@ -1,0 +1,15 @@
+﻿name: CI (placeholder)
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show repo
+        run: |
+          echo "This is a placeholder CI. Replace with real build/test steps."
+
